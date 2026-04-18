@@ -1,6 +1,7 @@
 ---
+About
 ---
-image: C:\Users\alexa\OneDrive\Pictures\eportfolio landing page.png
+image: C:\Users\alexa\OneDrive\Pictures\eportfolio landing page.png.jpg
 about:
   template: jolla
   links: # create buttons
