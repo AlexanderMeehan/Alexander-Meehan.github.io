@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  
+
 
 website:
   title: "Alexander Meehan"
@@ -12,10 +12,14 @@ website:
       - about.qmd
 
 format:
-  html:
-    theme:
-      - cosmo
-      - brand
+  html: 
+  theme:
+    - cosmo
+    - custom.scss
+      light: flatly
+      dark: darkly
+      fontsize: 1.1em
+      linestretch: 1.7
     css: styles.css
     toc: true
 
