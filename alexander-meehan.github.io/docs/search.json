@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Alexander Meehan",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Hi, I’m Alexander 👋\nI’m an MSc Business Analytics candidate at Dublin City University with a background in Economics and Politics. I’m interested in using data to solve real business problems — from forecasting demand to building dashboards that make complex information easy to act on.\nThis portfolio showcases my projects, skills and experience as I complete my masters and move into the world of data and business analytics.\nI’m available for opportunities from May 2026.\n💼 LinkedIn\n\nAbout Me · Projects · CV"
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "projects.qmd/index.html",
     "title": "Projects",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+    "text": "Dublin City University | 2025–2026\n\n\nLed an end-to-end data analytics consultancy engagement for an SME, focused on optimising product buying and inventory management through machine learning and data visualisation.\n\n\n\nServed as project lead and primary point of contact, coordinating team collaboration and managing client communication throughout the project lifecycle.\n\n\n\n\nDemand forecasting models — Implemented machine learning models to predict product demand and streamline supply chain operations\nInteractive dashboards — Developed visualisations to translate complex datasets into clear, actionable insights for non-technical stakeholders\n\n\n\n\nPython Machine Learning Data Visualisation SQL Stakeholder Communication"
   },
   {
     "objectID": "cv.qmd/index.html",
@@ -68,5 +68,19 @@
     "title": "CV",
     "section": "Interests",
     "text": "Interests\nActive member of Navan RFC and Bhulf Tón CLG."
+  },
+  {
+    "objectID": "projects.qmd/index.html#applied-consultancy-project-msc-dissertation",
+    "href": "projects.qmd/index.html#applied-consultancy-project-msc-dissertation",
+    "title": "Projects",
+    "section": "",
+    "text": "Dublin City University | 2025–2026\n\n\nLed an end-to-end data analytics consultancy engagement for an SME, focused on optimising product buying and inventory management through machine learning and data visualisation.\n\n\n\nServed as project lead and primary point of contact, coordinating team collaboration and managing client communication throughout the project lifecycle.\n\n\n\n\nDemand forecasting models — Implemented machine learning models to predict product demand and streamline supply chain operations\nInteractive dashboards — Developed visualisations to translate complex datasets into clear, actionable insights for non-technical stakeholders\n\n\n\n\nPython Machine Learning Data Visualisation SQL Stakeholder Communication"
+  },
+  {
+    "objectID": "projects.qmd/index.html#more-projects-coming-soon",
+    "href": "projects.qmd/index.html#more-projects-coming-soon",
+    "title": "Projects",
+    "section": "More Projects Coming Soon",
+    "text": "More Projects Coming Soon\nCurrently completing my MSc — additional projects will be added here upon graduation in September 2026."
   }
 ]
