@@ -1,7 +1,6 @@
+
 ---
-About
----
-image: C:\Users\alexa\OneDrive\Pictures\eportfolio landing page.png.jpg
+image: C:\Users\alexa\OneDrive\Pictures\eportfolio landing page.jpg
 about:
   template: jolla
   links: # create buttons
@@ -10,5 +9,3 @@ about:
       href: www.linkedin.com/in/alex-meehan-267875208
 ---
 ---
-
-About this site
