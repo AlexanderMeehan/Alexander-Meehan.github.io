@@ -14,8 +14,6 @@ about:
 title: "About Me"
 ---
 
-# About Me
-
 Hi, I'm Alexander — an MSc Business Analytics candidate at Dublin City University 
 with a background in Economics and Politics from University College Dublin.
 
