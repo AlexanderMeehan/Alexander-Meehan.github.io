@@ -1,24 +1,30 @@
 ---
 title: "Alexander Meehan"
----
----
-title: "Alexander Meehan"
+image: eportfolio-landing-page.png
+about:
+  template: trestles
+  image-width: 10em
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/alex-meehan-267875208
+    - icon: envelope
+      text: Email
+      href: mailto:youremail@email.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/alexander-meehan
 ---
 
 # Hi, I'm Alexander 👋
 
-I'm an MSc Business Analytics candidate at Dublin City University with a 
-background in Economics and Politics. I'm interested in using data to solve 
-real business problems — from forecasting demand to building dashboards that 
+I'm an MSc Business Analytics candidate at Dublin City University with a
+background in Economics and Politics. I'm interested in using data to solve
+real business problems — from forecasting demand to building dashboards that
 make complex information easy to act on.
 
-This portfolio showcases my projects, skills and experience as I complete my 
+This portfolio showcases my projects, skills and experience as I complete my
 masters and move into the world of data and business analytics.
 
 I'm available for opportunities from **May 2026**.
-
-💼 [LinkedIn](https://linkedin.com/in/alexander-meehan-267875208)
-
----
-
-[About Me](about.qmd) · [Projects](projects.qmd) · [CV](cv.qmd)
