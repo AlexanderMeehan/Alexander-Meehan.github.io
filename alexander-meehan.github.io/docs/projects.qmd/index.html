@@ -86,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -403,7 +403,72 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UmVzZWFyY2glMjBEZXNpZ24lMkNGaWVsZCUyMEV4cGVyaW1lbnRzJTJDTWVudGFsJTIwSGVhbHRo">
+<a href="docs/research-proposal-field-experiment.docx" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Physical Activity as a Treatment for Mental Health
+</h5>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2glMjBEZXNpZ24='); return false;">Research Design</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmllbGQlMjBFeHBlcmltZW50cw=='); return false;">Field Experiments</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWVudGFsJTIwSGVhbHRo'); return false;">Mental Health</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A research proposal examining the causal effect of physical activity on improved mental health outcomes when used as part of prescribed treatment.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="SW50ZXJuYXRpb25hbCUyMFJlbGF0aW9ucyUyQ1BvbGl0aWNhbCUyMFBzeWNob2xvZ3klMkNEaXNpbmZvcm1hdGlvbg==">
+<a href="docs/disinformation-conflict-essay.docx" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Psychological Effects of Disinformation on Conflict
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW50ZXJuYXRpb25hbCUyMFJlbGF0aW9ucw=='); return false;">International Relations</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG9saXRpY2FsJTIwUHN5Y2hvbG9neQ=='); return false;">Political Psychology</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGlzaW5mb3JtYXRpb24='); return false;">Disinformation</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>An analysis of how disinformation campaigns exploit cognitive biases to escalate societal conflict, using the Capitol Hill insurrection as a case study.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="RW50cmVwcmVuZXVyc2hpcCUyQ0J1c2luZXNzJTIwU3RyYXRlZ3klMkNIZWFsdGglMjBUZWNo">
+<a href="docs/concussid-new-venture-strategy.docx" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ConcussID: A New Venture to Improve Player Welfare
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW50cmVwcmVuZXVyc2hpcA=='); return false;">Entrepreneurship</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QnVzaW5lc3MlMjBTdHJhdGVneQ=='); return false;">Business Strategy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SGVhbHRoJTIwVGVjaA=='); return false;">Health Tech</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>A new venture strategy for an AI-powered app that diagnoses concussion in grassroots athletes, addressing inequality in access to sports medicine.</p>
+</div>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
