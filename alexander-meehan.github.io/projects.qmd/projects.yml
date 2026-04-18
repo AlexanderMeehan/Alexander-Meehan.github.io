@@ -17,4 +17,9 @@
   description: "A new venture strategy for an AI-powered app that diagnoses concussion
     in grassroots athletes, addressing inequality in access to sports medicine."
   categories: [Entrepreneurship, Business Strategy, Health Tech]
-  
+ 
+ - title: "SME Financial Dashboard"
+  path: sales-dashboard.qmd
+  image: images/sales_dashboard.png
+  description: "Monthly revenue, costs and profit visualisation built with Python and Plotly."
+  categories: [Python, Data Visualisation, Plotly]
