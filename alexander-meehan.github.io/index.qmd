@@ -1,11 +1,18 @@
 ---
 title: "Alexander Meehan"
----
----
-title: "Alexander Meehan"
+image: eportfolio_landing_page.png
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/alexander-meehan-267875208
+    - icon: envelope
+      text: Email
+      href: mailto:alex.meehan2001@gmail.com
 ---
 
-# Hi, I'm Alexander 👋
+## Hi, I'm Alexander 👋
 
 I'm an MSc Business Analytics candidate at Dublin City University with a 
 background in Economics and Politics. I'm interested in using data to solve 
@@ -17,8 +24,6 @@ masters and move into the world of data and business analytics.
 
 I'm available for opportunities from **May 2026**.
 
-💼 [LinkedIn](https://linkedin.com/in/alexander-meehan-267875208)
-
 ---
 
-[About Me](about.qmd) · [Projects](projects.qmd) · [CV](cv.qmd)
+[About Me](about.qmd) · [Projects](projects/index.qmd) · [CV](cv.qmd)

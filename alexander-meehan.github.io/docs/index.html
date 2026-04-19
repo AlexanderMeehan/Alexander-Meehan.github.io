@@ -37,7 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -273,6 +272,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./projects.qmd"> 
 <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Python.qmd"> 
+<span class="menu-text">Python</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -287,41 +290,41 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-jolla">
+  <img src="eportfolio_landing_page.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Alexander Meehan</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
+</header><main class="content" id="quarto-document-content">
 
-
-</header>
-
-
-<section id="hi-im-alexander" class="level1">
-<h1>Hi, I’m Alexander 👋</h1>
+<section id="hi-im-alexander" class="level2">
+<h2 data-anchor-id="hi-im-alexander">Hi, I’m Alexander 👋</h2>
 <p>I’m an MSc Business Analytics candidate at Dublin City University with a background in Economics and Politics. I’m interested in using data to solve real business problems — from forecasting demand to building dashboards that make complex information easy to act on.</p>
 <p>This portfolio showcases my projects, skills and experience as I complete my masters and move into the world of data and business analytics.</p>
 <p>I’m available for opportunities from <strong>May 2026</strong>.</p>
-<p>💼 <a href="https://linkedin.com/in/alexander-meehan-267875208">LinkedIn</a></p>
 <hr>
-<p><a href="./about.html">About Me</a> · <a href="projects.qmd">Projects</a> · <a href="./cv.html">CV</a></p>
+<p><a href="./about.html">About Me</a> · <a href="projects/index.qmd">Projects</a> · <a href="./cv.html">CV</a></p>
 
 
 </section>
-
-</main> <!-- /main -->
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://linkedin.com/in/alexander-meehan-267875208" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="mailto:alex.meehan2001@gmail.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -337,13 +340,6 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
