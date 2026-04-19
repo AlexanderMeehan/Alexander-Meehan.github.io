@@ -9,9 +9,7 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/alex-meehan-267875208
-    - icon: envelope
-      text: Email
-      href: mailto:youremail@email.com
+
     - icon: github
       text: GitHub
       href: https://github.com/alexander-meehan

@@ -37,7 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -287,41 +286,45 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="eportfolio-landing-page.png" class="about-image
+  round " style="height: 10em; width: 10em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Alexander Meehan</h1>
 </div>
-
-
-
 <div class="quarto-title-meta">
-
-    
-  
-    
   </div>
-  
-
-
 </header>
-
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/alex-meehan-267875208" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text">LinkedIn</span>
+  </a>
+  <a href="mailto:youremail@email.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+  <a href="https://github.com/alexander-meehan" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">GitHub</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 
 <section id="hi-im-alexander" class="level1">
 <h1>Hi, I’m Alexander 👋</h1>
 <p>I’m an MSc Business Analytics candidate at Dublin City University with a background in Economics and Politics. I’m interested in using data to solve real business problems — from forecasting demand to building dashboards that make complex information easy to act on.</p>
 <p>This portfolio showcases my projects, skills and experience as I complete my masters and move into the world of data and business analytics.</p>
 <p>I’m available for opportunities from <strong>May 2026</strong>.</p>
-<p>💼 <a href="https://linkedin.com/in/alexander-meehan-267875208">LinkedIn</a></p>
-<hr>
-<p><a href="./about.html">About Me</a> · <a href="projects.qmd">Projects</a> · <a href="cv.qmd">CV</a></p>
 
 
 </section>
-
-</main> <!-- /main -->
+</main></div>
+</div>
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -337,13 +340,6 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
